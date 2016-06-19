@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FD7D6AD1D1332D6004DFFAB /* AbilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7D6AC1D1332D6004DFFAB /* AbilityTests.swift */; };
+		9FD7D6AF1D133D88004DFFAB /* mainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7D6AE1D133D88004DFFAB /* mainTests.swift */; };
+		9FD9A3111CD9DD40001ED8C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3101CD9DD40001ED8C1 /* main.swift */; };
+		9FD9A3181CD9DE73001ED8C1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3171CD9DE73001ED8C1 /* Character.swift */; };
+		9FD9A31C1CD9E2B0001ED8C1 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A31B1CD9E2B0001ED8C1 /* Vehicle.swift */; };
+		9FD9A31E1CD9E2BC001ED8C1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A31D1CD9E2BC001ED8C1 /* Item.swift */; };
+		9FD9A32A1CD9E5FF001ED8C1 /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3291CD9E5FF001ED8C1 /* Figure.swift */; };
+		9FD9A32E1CD9E774001ED8C1 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A32D1CD9E774001ED8C1 /* Wave.swift */; };
+		9FD9A3611CD9FC3F001ED8C1 /* FigureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3601CD9FC3F001ED8C1 /* FigureTests.swift */; };
+		9FD9A3681CD9FCD6001ED8C1 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3191CD9E20F001ED8C1 /* Ability.swift */; };
+		9FD9A3771CD9FCF5001ED8C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3101CD9DD40001ED8C1 /* main.swift */; };
+		9FD9A37E1CDA47DB001ED8C1 /* VehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A37D1CDA47DB001ED8C1 /* VehicleTests.swift */; };
+		9FD9A3801CDA4899001ED8C1 /* ItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A37F1CDA4899001ED8C1 /* ItemTests.swift */; };
+		9FD9A3821CDA4903001ED8C1 /* WaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3811CDA4903001ED8C1 /* WaveTests.swift */; };
+		9FD9A3861CDB6457001ED8C1 /* Pack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3851CDB6457001ED8C1 /* Pack.swift */; };
+		9FD9A3881CDB6B9E001ED8C1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3871CDB6B9E001ED8C1 /* Data.swift */; };
+		9FD9A3901CDBB269001ED8C1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3871CDB6B9E001ED8C1 /* Data.swift */; };
+		9FD9A3911CDBB269001ED8C1 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A32D1CD9E774001ED8C1 /* Wave.swift */; };
+		9FD9A3921CDBB269001ED8C1 /* Pack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3851CDB6457001ED8C1 /* Pack.swift */; };
+		9FD9A3931CDBB269001ED8C1 /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3291CD9E5FF001ED8C1 /* Figure.swift */; };
+		9FD9A3941CDBB269001ED8C1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3171CD9DE73001ED8C1 /* Character.swift */; };
+		9FD9A3951CDBB269001ED8C1 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A31B1CD9E2B0001ED8C1 /* Vehicle.swift */; };
+		9FD9A3961CDBB269001ED8C1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A31D1CD9E2BC001ED8C1 /* Item.swift */; };
+		9FD9A3971CDBB269001ED8C1 /* Ability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3191CD9E20F001ED8C1 /* Ability.swift */; };
+		9FD9A3A31CE27B0B001ED8C1 /* PackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD9A3A21CE27B0B001ED8C1 /* PackTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FD9A30B1CD9DD40001ED8C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FD7D6AC1D1332D6004DFFAB /* AbilityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbilityTests.swift; sourceTree = "<group>"; };
+		9FD7D6AE1D133D88004DFFAB /* mainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTests.swift; sourceTree = "<group>"; };
+		9FD9A30D1CD9DD40001ED8C1 /* LegoDimensionsCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LegoDimensionsCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD9A3101CD9DD40001ED8C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9FD9A3171CD9DE73001ED8C1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		9FD9A3191CD9E20F001ED8C1 /* Ability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ability.swift; sourceTree = "<group>"; };
+		9FD9A31B1CD9E2B0001ED8C1 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9FD9A31D1CD9E2BC001ED8C1 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9FD9A3291CD9E5FF001ED8C1 /* Figure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Figure.swift; sourceTree = "<group>"; };
+		9FD9A32D1CD9E774001ED8C1 /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		9FD9A35E1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoDimensionsCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD9A3601CD9FC3F001ED8C1 /* FigureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureTests.swift; sourceTree = "<group>"; };
+		9FD9A3621CD9FC3F001ED8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD9A37D1CDA47DB001ED8C1 /* VehicleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
+		9FD9A37F1CDA4899001ED8C1 /* ItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTests.swift; sourceTree = "<group>"; };
+		9FD9A3811CDA4903001ED8C1 /* WaveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveTests.swift; sourceTree = "<group>"; };
+		9FD9A3851CDB6457001ED8C1 /* Pack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pack.swift; sourceTree = "<group>"; };
+		9FD9A3871CDB6B9E001ED8C1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9FD9A3A21CE27B0B001ED8C1 /* PackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD9A30A1CD9DD40001ED8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD9A35B1CD9FC3F001ED8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD9A3041CD9DD40001ED8C1 = {
+			isa = PBXGroup;
+			children = (
+				9FD9A30F1CD9DD40001ED8C1 /* LegoDimensionsCalculator */,
+				9FD9A35F1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests */,
+				9FD9A30E1CD9DD40001ED8C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD9A30E1CD9DD40001ED8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD9A30D1CD9DD40001ED8C1 /* LegoDimensionsCalculator */,
+				9FD9A35E1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD9A30F1CD9DD40001ED8C1 /* LegoDimensionsCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				9FD9A3101CD9DD40001ED8C1 /* main.swift */,
+				9FD9A3871CDB6B9E001ED8C1 /* Data.swift */,
+				9FD9A32D1CD9E774001ED8C1 /* Wave.swift */,
+				9FD9A3851CDB6457001ED8C1 /* Pack.swift */,
+				9FD9A3291CD9E5FF001ED8C1 /* Figure.swift */,
+				9FD9A3171CD9DE73001ED8C1 /* Character.swift */,
+				9FD9A31B1CD9E2B0001ED8C1 /* Vehicle.swift */,
+				9FD9A31D1CD9E2BC001ED8C1 /* Item.swift */,
+				9FD9A3191CD9E20F001ED8C1 /* Ability.swift */,
+			);
+			path = LegoDimensionsCalculator;
+			sourceTree = "<group>";
+		};
+		9FD9A35F1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FD7D6AE1D133D88004DFFAB /* mainTests.swift */,
+				9FD9A3811CDA4903001ED8C1 /* WaveTests.swift */,
+				9FD9A3A21CE27B0B001ED8C1 /* PackTests.swift */,
+				9FD9A3601CD9FC3F001ED8C1 /* FigureTests.swift */,
+				9FD9A37D1CDA47DB001ED8C1 /* VehicleTests.swift */,
+				9FD9A37F1CDA4899001ED8C1 /* ItemTests.swift */,
+				9FD7D6AC1D1332D6004DFFAB /* AbilityTests.swift */,
+				9FD9A3621CD9FC3F001ED8C1 /* Info.plist */,
+			);
+			path = LegoDimensionsCalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD9A30C1CD9DD40001ED8C1 /* LegoDimensionsCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD9A3141CD9DD40001ED8C1 /* Build configuration list for PBXNativeTarget "LegoDimensionsCalculator" */;
+			buildPhases = (
+				9FD9A3091CD9DD40001ED8C1 /* Sources */,
+				9FD9A30A1CD9DD40001ED8C1 /* Frameworks */,
+				9FD9A30B1CD9DD40001ED8C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegoDimensionsCalculator;
+			productName = LegoDimensionsCalculator;
+			productReference = 9FD9A30D1CD9DD40001ED8C1 /* LegoDimensionsCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+		9FD9A35D1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD9A3631CD9FC3F001ED8C1 /* Build configuration list for PBXNativeTarget "LegoDimensionsCalculatorTests" */;
+			buildPhases = (
+				9FD9A35A1CD9FC3F001ED8C1 /* Sources */,
+				9FD9A35B1CD9FC3F001ED8C1 /* Frameworks */,
+				9FD9A35C1CD9FC3F001ED8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegoDimensionsCalculatorTests;
+			productName = LegoDimensionsCalculatorTests;
+			productReference = 9FD9A35E1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD9A3051CD9DD40001ED8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sundance;
+				TargetAttributes = {
+					9FD9A30C1CD9DD40001ED8C1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9FD9A35D1CD9FC3F001ED8C1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9FD9A3081CD9DD40001ED8C1 /* Build configuration list for PBXProject "LegoDimensionsCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FD9A3041CD9DD40001ED8C1;
+			productRefGroup = 9FD9A30E1CD9DD40001ED8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FD9A30C1CD9DD40001ED8C1 /* LegoDimensionsCalculator */,
+				9FD9A35D1CD9FC3F001ED8C1 /* LegoDimensionsCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD9A35C1CD9FC3F001ED8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD9A3091CD9DD40001ED8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD9A32E1CD9E774001ED8C1 /* Wave.swift in Sources */,
+				9FD9A31E1CD9E2BC001ED8C1 /* Item.swift in Sources */,
+				9FD9A31C1CD9E2B0001ED8C1 /* Vehicle.swift in Sources */,
+				9FD9A3881CDB6B9E001ED8C1 /* Data.swift in Sources */,
+				9FD9A3111CD9DD40001ED8C1 /* main.swift in Sources */,
+				9FD9A32A1CD9E5FF001ED8C1 /* Figure.swift in Sources */,
+				9FD9A3861CDB6457001ED8C1 /* Pack.swift in Sources */,
+				9FD9A3681CD9FCD6001ED8C1 /* Ability.swift in Sources */,
+				9FD9A3181CD9DE73001ED8C1 /* Character.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD9A35A1CD9FC3F001ED8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD9A3A31CE27B0B001ED8C1 /* PackTests.swift in Sources */,
+				9FD9A3821CDA4903001ED8C1 /* WaveTests.swift in Sources */,
+				9FD7D6AF1D133D88004DFFAB /* mainTests.swift in Sources */,
+				9FD9A3901CDBB269001ED8C1 /* Data.swift in Sources */,
+				9FD9A3771CD9FCF5001ED8C1 /* main.swift in Sources */,
+				9FD9A3611CD9FC3F001ED8C1 /* FigureTests.swift in Sources */,
+				9FD9A3961CDBB269001ED8C1 /* Item.swift in Sources */,
+				9FD7D6AD1D1332D6004DFFAB /* AbilityTests.swift in Sources */,
+				9FD9A3921CDBB269001ED8C1 /* Pack.swift in Sources */,
+				9FD9A3931CDBB269001ED8C1 /* Figure.swift in Sources */,
+				9FD9A3911CDBB269001ED8C1 /* Wave.swift in Sources */,
+				9FD9A3941CDBB269001ED8C1 /* Character.swift in Sources */,
+				9FD9A3951CDBB269001ED8C1 /* Vehicle.swift in Sources */,
+				9FD9A37E1CDA47DB001ED8C1 /* VehicleTests.swift in Sources */,
+				9FD9A3801CDA4899001ED8C1 /* ItemTests.swift in Sources */,
+				9FD9A3971CDBB269001ED8C1 /* Ability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FD9A3121CD9DD40001ED8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FD9A3131CD9DD40001ED8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9FD9A3151CD9DD40001ED8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD9A3161CD9DD40001ED8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9FD9A3641CD9FC3F001ED8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LegoDimensionsCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sundance.LegoDimensionsCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD9A3651CD9FC3F001ED8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LegoDimensionsCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sundance.LegoDimensionsCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD9A3081CD9DD40001ED8C1 /* Build configuration list for PBXProject "LegoDimensionsCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD9A3121CD9DD40001ED8C1 /* Debug */,
+				9FD9A3131CD9DD40001ED8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD9A3141CD9DD40001ED8C1 /* Build configuration list for PBXNativeTarget "LegoDimensionsCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD9A3151CD9DD40001ED8C1 /* Debug */,
+				9FD9A3161CD9DD40001ED8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD9A3631CD9FC3F001ED8C1 /* Build configuration list for PBXNativeTarget "LegoDimensionsCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD9A3641CD9FC3F001ED8C1 /* Debug */,
+				9FD9A3651CD9FC3F001ED8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD9A3051CD9DD40001ED8C1 /* Project object */;
+}
