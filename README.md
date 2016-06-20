@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/sundance2000/LegoDimensionsCalculator.svg?branch=master)](https://travis-ci.org/sundance2000/LegoDimensionsCalculator) [![codecov](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator/branch/master/graph/badge.svg)](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator)
