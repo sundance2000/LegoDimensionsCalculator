@@ -72,7 +72,6 @@ enum Ability: Int, EnumerableEnum {
     case RainbowLegoObjects
     case RefillsHealthWhenNear
     case RelicDetector
-    case SentryTurret
     case SpeedBoost
     case SilverLegoBlowup
     case SlimeBeam
@@ -173,7 +172,6 @@ let levelAbilities: [Ability] = [
     .Portal2Level,
     .TheSimpsonsLevel,
     .CanBeRiddenAsATurret, // Only needed in Portal level
-    .TauntsEnemies // Only needed in The Simpsons level
 ]
 
 ///  These abilities can be used while diving
@@ -219,7 +217,6 @@ let ignoredAbilities: [Ability] = [
     .MechWalker, // No real ability
     .ModelSailsOnWater, // No real ability
     .RefillsHealthWhenNear, // Not needed
-    .SentryTurret, // Not needed
     .SlimeBeam,
     .SlimeBolts,
     .SlimeBomb,
@@ -227,6 +224,7 @@ let ignoredAbilities: [Ability] = [
     .SpecialWeapon,
     .Speed, // Not needed
     .SpeedBoost, // Not needed
+    .TauntsEnemies, // Already covered by the Ghost Trap
     .DiveBigTransform,
     .DiveFreezeBreath,
     .DiveHazardProtection
