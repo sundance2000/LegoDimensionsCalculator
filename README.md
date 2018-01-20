@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/sundance2000/LegoDimensionsCalculator.svg?branch=master)](https://travis-ci.org/sundance2000/LegoDimensionsCalculator) [![codecov](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator/branch/master/graph/badge.svg)](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator)
+[![Build Status](https://travis-ci.org/sundance2000/LegoDimensionsCalculator.svg?branch=master)](https://travis-ci.org/sundance2000/LegoDimensionsCalculator) [![codecov](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator/branch/master/graph/badge.svg)](https://codecov.io/gh/sundance2000/LegoDimensionsCalculator) [![BCH compliance](https://bettercodehub.com/edge/badge/sundance2000/LegoDimensionsCalculator?branch=master)](https://bettercodehub.com/)
+
 
 This little tool calculates some interesting statistics for the game LEGO Dimensions. The code contains a full database of all figures available and their corresponding abilities. I have added all data by my own to make sure nothing is missing. Feel free to fork this repository and do some calculations on your own.
 
